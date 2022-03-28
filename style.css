@@ -9,13 +9,19 @@ a{
 header , footer {
 
     border-bottom: 2px solid red;
-    border-bottom: 2px solid darkblue;
+    border-bottom: 2px solid rgb(250, 250, 250);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-image: url(/img/ces.jpg);
+    color: #ffff;
 }
 
 .links a {
     padding: 1rem;
     border: 1px solid darkgoldenrod;
+    color: aliceblue;
 }
 
 .links a:hover , .links a:focus{
@@ -48,12 +54,14 @@ footer h3 {
     display: flex;
     gap:1rem;
     margin: 2rem;
+    color: aliceblue;
 }
 
 .content a {
     padding: 1rem;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 255, 255);
     text-align: center;
+    color: aliceblue;
 }
 
 .content a img{
